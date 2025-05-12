@@ -16,6 +16,14 @@
     text-decoration: none;
 }
 
+:root {
+
+    --doree: #AB864C;
+    --white: #FFFFFF;
+    --black: #000000;
+
+}
+
 body {
     font-family: 'Poppins';
 }
@@ -33,7 +41,7 @@ h3 {
 header {
     padding: 20px;
     text-align: center;
-    box-shadow: 0px 0px 23px 4px #000000;
+    box-shadow: 0px 0px 23px 4px var(--black);
 }
 
 header nav {
@@ -63,7 +71,7 @@ header nav ul li a {
 }
 
 header nav ul li:first-child a {
-    color: #AB864C;
+    color: var(--doree);
 }
 
 main .main__head {
@@ -80,7 +88,7 @@ main .main__head .main__head__content {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #FFFFFF90;
+    background: #ffffffce;
     padding: 30px;
 }
 
@@ -98,15 +106,15 @@ main .main__head__footer {
 
 main .main__head__footer h2 {
     padding: 0 10px 15px 10px;
-    max-width: 768px;
+    max-width: 800px;
     margin: auto;
 }
 
 main .main__head__footer p:last-child {
     margin: 50px auto 0 auto;
     padding: 20px;
-    border: 1px solid #000000;
-    max-width: 768px;
+    border: 1px solid var(--black);
+    max-width: 650px;
 }
 
 main .main__head__footer .main__head__footer__p {
@@ -114,9 +122,9 @@ main .main__head__footer .main__head__footer__p {
 }
 
 main .main__patisserie {
-    background: #AB864C;
+    background: var(--doree);
     padding: 50px 20px;
-    color: #FFFFFF;
+    color: var(--white);
     text-align: center;
 }
 
@@ -134,8 +142,8 @@ main .main__patisserie .main__patisserie__boxs {
 }
 
 main .main__patisserie .main__patisserie__box {
-    max-width: 400px;
-    height: 600px;
+    max-width: 600px;
+    height: 550px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,18 +151,18 @@ main .main__patisserie .main__patisserie__box {
 }
 
 main .main__patisserie .main__patisserie__box img {
-    width: 80%;
+    max-width: 285px;
 }
 
 main .main__patisserie button {
     margin-top: 40px;
     padding: 15px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid var(--white);
     background: none;
 }
 
 main .main__patisserie button a {
-    color: #FFFFFF;
+    color: var(--white);
     font-size: 1.2em;
 }
 
@@ -198,17 +206,17 @@ main .main__histoire .main__histoire__content button {
     margin-top: 20px;
     padding: 15px;
     border: none;
-    background: #AB864C;
+    background: var(--doree);
 }
 
 main .main__histoire .main__histoire__content button a {
-    color: #FFFFFF;
+    color: var(--white);
     font-size: 1.2em;
 }
 
 main .main__trait {
     height: 2px;
-    background: #000000;
+    background: var(--black);
     width: 80%;
     margin: auto;
 }
@@ -286,16 +294,16 @@ main .main__contacte button {
     width: 100%;
     padding: 15px;
     border: none;
-    background: #AB864C;
-    color: #FFFFFF;
+    background: var(--doree);
+    color: var(--white);
     font-size: 1.2em;
 }
 
 main .main__map {
-    background: #AB864C;
+    background: var(--doree);
     padding: 50px 0 0 0;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--white);
     height: 701px;
 }
 
@@ -314,8 +322,8 @@ main .main__map iframe {
 }
 
 footer {
-    background: #000000;
-    color: #FFFFFF;
+    background: var(--black);
+    color: var(--white);
 }
 
 footer .footer__head {
@@ -329,11 +337,11 @@ footer .footer__head {
 }
 
 footer .footer__head .footer__box__nav a {
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 footer .footer__head .footer__box__nav p:first-child a {
-    color: #AB864C;
+    color: var(--doree);
 }
 
 footer .footer__head .footer__box {
@@ -351,7 +359,7 @@ footer .footer__head .footer__box__reseaux {
 }
 
 footer .footer__footer {
-    border: 1px solid #AB864C;
+    border: 1px solid var(--doree);
     padding: 2%;
     text-align: center;
 }
