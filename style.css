@@ -1,3 +1,5 @@
+/* Font family */
+
 @font-face {
     font-family: 'Kaisen Decol';
     src: url(font/KaiseiDecol/KaiseiDecol-Bold.ttf) format(TrueType);
@@ -8,6 +10,8 @@
     src: url(font/Poppins/Poppins-Regular.ttf) format(TrueType);
 }
 
+/* Reset */
+
 *, ::before, ::after{
     margin: 0;
     padding: 0;
@@ -16,6 +20,8 @@
     text-decoration: none;
     transition: .2s;
 }
+
+/* Variables */
 
 :root {
 
@@ -42,6 +48,8 @@ h3 {
     font-family: 'Kaisei Decol', sans-serif;
     font-size: 1.5em;
 }
+
+/* Navigation */
 
 header {
     padding: 20px;
@@ -86,6 +94,10 @@ header nav ul li a:hover {
     color: var(--doree);
 }
 
+/* Corps du site internet  */
+
+/* Head */
+
 main .main__head {
     position: relative;
     background: url(images/haute-couture-2.jpg);
@@ -114,6 +126,8 @@ main .main__head .main__head__content h1 {
     font-family: 'Kaisei Decol';
 }
 
+/* Notre savoir faire */
+
 main .main__head__footer {
     padding: 140px 0;
     text-align: center;
@@ -140,6 +154,8 @@ main .main__head__footer p:last-child {
 main .main__head__footer .main__head__footer__p {
     font-weight: 900;
 }
+
+/* Nos patisserie */
 
 main .main__patisserie {
     background: var(--doree);
@@ -194,6 +210,8 @@ main .main__patisserie button:hover {
 main .main__patisserie button:hover a{
     color: #AB864C;
 }
+
+/* Notre histoire */
 
 main .main__histoire {
     padding: 140px 20px;
@@ -252,12 +270,16 @@ main .main__histoire .main__histoire__content button:hover a {
     color: var(--doree);
 }
 
+/* Séparation */
+
 main .main__trait {
     height: 2px;
     background: var(--black);
     width: 80%;
     margin: auto;
 }
+
+/* Contacte */
 
 main .main__contacte {
     padding: 140px 20px;
@@ -267,6 +289,8 @@ main .main__contacte {
     flex-direction: column;
     gap: 20px;
 }
+
+/* Description */
 
 main .main__contacte .main__contacte__description {
     max-width: 1024px;
@@ -278,6 +302,8 @@ main .main__contacte .main__contacte__description {
 main .main__contacte .main__contacte__description h2 {
     text-align: center;
 }
+
+/* Formulaire */
 
 main .main__contacte form {
     width: 100%;
@@ -353,6 +379,8 @@ main .main__contacte button:hover {
     color: var(--doree);
 }
 
+/* Adresse */
+
 main .main__map {
     background: linear-gradient(to top, var(--black), var(--doree) 50%);
     padding: 50px 0 0 0;
@@ -369,11 +397,15 @@ main .main__map .main__map__adresse {
     margin-bottom: 50px;
 }
 
+/* Google maps */
+
 main .main__map iframe {
     width: 100%;
     height: 400px;
     bottom: 0;
 }
+
+/* Footer */
 
 footer {
     background: var(--black);
@@ -416,6 +448,8 @@ footer .footer__head .footer__box__reseaux {
     flex-direction: row-reverse;
 }
 
+/* Mentions légales */
+
 footer .footer__footer {
     border: 1px solid var(--doree);
     padding: 2%;
@@ -430,6 +464,8 @@ footer .footer__footer {
 footer .footer__footer a {
     color: var(--white);
 }
+
+/* Version Tablette */
 
 @media screen and (min-width: 768px) {
     
@@ -474,6 +510,8 @@ footer .footer__footer a {
     }
 
 }
+
+/* Version Desktop */
 
 @media screen and (min-width: 1024px) {
 
