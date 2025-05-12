@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +12,9 @@
             <img src="/images/logo.svg" alt="Logo Patachou">
             <ul>
                 <li><a href="#">Accueil</a></li>
-                <li><a href="#">Notre savoir-faire</a></li>
-                <li><a href="#">Nos pâtisseries</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#notreSavoirFaire">Notre savoir-faire</a></li>
+                <li><a href="#nosPatisseries">Nos pâtisseries</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -24,12 +24,12 @@
                 <h1>Pâtisseries Haute Couture</h1>
             </div>
         </section>
-        <section class="main__head__footer">
+        <section class="main__head__footer" id="notreSavoirFaire">
             <h2>“De toutes les passions, la seule vraiment respectable me parait être la gourmandise.”</h2>
             <p class="main__head__footer__p">Guy de Maupassant</p>
             <p>Nos délicieux gâteaux sont confectionnés avec soin de manière artisanale, en utilisant des ingrédients bruts issus de l’agriculture biologique, tout en respectant rigoureusement les saisons. Sans conservateurs, sans colorants ni d’arômes artificiels, nos créations mettent en avant la pureté des saveurs.</p>
         </section>
-        <section class="main__patisserie">
+        <section class="main__patisserie" id="nosPatisseries">
             <h2>Nos pâtisseries Signature</h2>
             <div class="main__patisserie__boxs">
                 <div class="main__patisserie__box">
@@ -62,7 +62,7 @@
             </div>
         </section>
         <div class="main__trait"></div>
-        <section class="main__contacte">
+        <section class="main__contacte" id="contact">
             <div class="main__contacte__description">
                 <div class="title">
                     <h2>Des gâteaux</h2>
@@ -70,28 +70,28 @@
                 </div>
                 <p>Pour vos événements exclusifs – anniversaire, séminaire d’entreprise ou réception privée – offrez à vos invités une sélection raffinée de pâtisseries, biscuits, mignardises et tartes, soigneusement élaborés pour sublimer chaque moment !</p>
             </div>
-            <form action="">
+            <form>
                 <p>Votre nom et prénom</p>
                 <div class="form__name">
                     <div class="form__input">
-                        <input type="text" id="prenom">
+                        <input type="text" id="prenom" required>
                         <label for="prenom">Prénom</label>
                     </div>
                     <div class="form__input">
-                        <input type="text" id="nom">
+                        <input type="text" id="nom" required>
                         <label for="nom">Nom</label>
                     </div>
                 </div>
                 <div class="form__email">
                     <label for="email">Votre email</label>
-                    <input type="text" id="email">
+                    <input type="text" id="email" required>
                 </div>
                 <div class="form__message">
                     <label for="message">Votre message</label>
-                    <textarea name="" id="message"></textarea>
+                    <textarea id="message" required></textarea>
                 </div>
                 <div class="form__checkbox">
-                    <input type="checkbox" id="check">
+                    <input type="checkbox" id="check" required>
                     <label for="check">J'ai lu et j'accepte la politique de confidentialité</label>
                 </div>
                 <button type="submit">Envoyer</button>
@@ -111,9 +111,9 @@
             <img src="images/logo-white.svg" alt="Logo Patachou Version White">
             <div class="footer__box__nav">
                 <p><a href="#">Accueil</a></p>
-                <p><a href="#">Notre savoir-faire</a></p>
-                <p><a href="#">Nos pâtisseries</a></p>
-                <p><a href="#">Contact</a></p>
+                <p><a href="#notreSavoirFaire">Notre savoir-faire</a></p>
+                <p><a href="#nosPatisseries">Nos pâtisseries</a></p>
+                <p><a href="#contact">Contact</a></p>
             </div>
             <div class="footer__box">
                 <p>02 40 50 40 50</p>
