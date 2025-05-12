@@ -8,7 +8,7 @@
     src: url(font/Poppins/Poppins-Regular.ttf) format(TrueType);
 }
 
-*, ::before, ::after, li, a{
+*, ::before, ::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,16 +30,16 @@ html {
 }
 
 body {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
 }
 
 h2 {
-    font-family: 'kaisen Decol';
+    font-family: 'kaisen Decol', sans-serif;
     font-size: 2em;
 }
 
 h3 {
-    font-family: 'Kaisei Decol';
+    font-family: 'Kaisei Decol', sans-serif;
     font-size: 1.5em;
 }
 
