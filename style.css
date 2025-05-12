@@ -20,6 +20,16 @@ body {
     font-family: 'Poppins';
 }
 
+h2 {
+    font-family: 'kaisen Decol';
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Kaisei Decol';
+    font-size: 1.5em;
+}
+
 header {
     padding: 20px;
     text-align: center;
@@ -57,11 +67,28 @@ header nav ul li:first-child a {
 }
 
 main .main__head {
+    position: relative;
     background: url(images/haute-couture-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 30vh;
+}
+
+main .main__head .main__head__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFFFFF90;
+    padding: 30px;
+}
+
+main .main__head .main__head__content h1 {
+    width: 250px;
+    text-align: center;
+    font-size: 2.2em;
+    font-family: 'Kaisei Decol';
 }
 
 main .main__head__footer {
@@ -119,11 +146,6 @@ main .main__patisserie .main__patisserie__box img {
     width: 80%;
 }
 
-main .main__patisserie .main__patisserie__box h3 {
-    font-family: 'Kaisei Decol';
-    font-size: 1.5em;
-}
-
 main .main__patisserie button {
     margin-top: 40px;
     padding: 15px;
@@ -164,6 +186,7 @@ main .main__histoire .main__histoire__content__title img {
 
 main .main__histoire .main__histoire__content__title h2 {
     font-family: 'Kaisei Decol';
+    font-size: 2.2em;
 }
 
 main .main__histoire .main__histoire__content p {
@@ -204,7 +227,6 @@ main .main__contacte p{
 }
 
 main .main__contacte form {
-    border: 1px solid red;
     max-width: 400px;
     padding: 20px;
     display: flex;
@@ -251,6 +273,91 @@ main .main__contacte .form__checkbox {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+main .main__contacte .form__checkbox label {
+    margin: 0;
+}
+
+main .main__contacte button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #AB864C;
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+
+main .main__map {
+    background: #AB864C;
+    padding: 50px 0 0 0;
+    text-align: center;
+    color: #FFFFFF;
+    height: 701px;
+}
+
+main .main__map h2 {
+    font-size: 2.2em;
+    margin-bottom: 50px;
+}
+
+main .main__map .main__map__adresse {
+    margin-bottom: 50px;
+}
+
+main .main__map iframe {
+    width: 100%;
+    bottom: 0;
+}
+
+footer {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+footer .footer__head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 1.1em;
+    padding: 50px;
+}
+
+footer .footer__head .footer__box__nav a {
+    color: #FFFFFF;
+}
+
+footer .footer__head .footer__box__nav p:first-child a {
+    color: #AB864C;
+}
+
+footer .footer__head .footer__box {
+    height: 102px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+footer .footer__head .footer__box__reseaux {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+footer .footer__footer {
+    border: 1px solid #AB864C;
+    padding: 2%;
+    text-align: center;
+}
+
+footer .footer__footer p:first-child {
+    margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
